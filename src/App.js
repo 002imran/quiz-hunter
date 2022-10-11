@@ -4,7 +4,8 @@ import Main from './layouts/Main';
 // import Header from './components/Header/Header';
 import { Home } from './components/Home/Home';
 // import Card from './components/Card/Card';
-import Quiz from './components/Quiz/Quiz';
+// import Quiz from './components/Quiz/Quiz';
+import Quiz from './components/Quiz/Quiz1';
 
 function App() {
   const router = createBrowserRouter([
