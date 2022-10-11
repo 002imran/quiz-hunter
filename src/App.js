@@ -1,10 +1,12 @@
-
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home'
 
 function App() {
   return (
     <div>
-      <h2>Welcome to My Quiz App!</h2>
+      <Navbar></Navbar>
+      <Home></Home>
     </div>
   );
 }
