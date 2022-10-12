@@ -23,7 +23,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
-                <Link to='/home'>Home</Link>
+                <Link to="/">Home</Link>
               </p>
             </li>
             <li className="flex">
@@ -32,7 +32,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
-                <p to="/header">Blog</p>
+                <Link to="/blog">Blog</Link>
               </p>
             </li>
             <li className="flex">
@@ -41,7 +41,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
-                Statistics
+                <Link to="/statistics">Statistics</Link>
               </p>
             </li>
             <li className="flex">
