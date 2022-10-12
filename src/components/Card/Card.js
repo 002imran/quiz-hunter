@@ -1,16 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
- 
-} from "recharts";
-
-
 const Card = ({quizCard}) => {
     // console.log(quizCard);
     const {logo, name, total, id} = quizCard;

@@ -12,7 +12,7 @@ import {
 
 const Statistics = () => {
     const statistics = useLoaderData();
-    console.log(statistics);
+    // console.log(statistics);
     return (
       <div>
         <h2>Hello</h2>

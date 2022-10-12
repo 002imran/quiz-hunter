@@ -1,10 +1,7 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './layouts/Main';
-// import Header from './components/Header/Header';
 import { Home } from './components/Home/Home';
-// import Card from './components/Card/Card';
-// import Quiz from './components/Quiz/Quiz';
 import Quiz from './components/Quiz/Quiz1';
 import ErrorPage from './components/Error/ErrorPage';
 import Statistics from './components/Statistics/Statistics';

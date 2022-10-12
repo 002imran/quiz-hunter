@@ -8,16 +8,12 @@ import { AiFillEye } from "react-icons/ai";
 import "./Quiz.css"
 
 const Quiz = () => {
-  const [score, setScore] = useState(0);
+  
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const quiz = useLoaderData();
   const questions = quiz.data.questions;
-  console.log(questions);
+  // console.log(questions);
 
-  // Helper Functions
-
-
-  /* A possible answer was clicked */
   const optionClickHandler = () => {
       if (currentQuestion + 1 < questions.length) {
         
