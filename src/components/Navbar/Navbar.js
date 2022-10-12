@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../assets/quiz-hunter.png'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
       <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
@@ -22,7 +23,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
-                <p>Home</p>
+                <Link to='/home'>Home</Link>
               </p>
             </li>
             <li className="flex">
@@ -38,7 +39,7 @@ const Navbar = () => {
               <p
                 rel="noopener noreferrer"
                 href="#"
-                className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400"
+                className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
                 Statistics
               </p>
